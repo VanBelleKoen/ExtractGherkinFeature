@@ -1,0 +1,597 @@
+MessagesOverview.feature; Retrieve an overview of all messages per page
+MessagesOverview.feature;" Message overview with no results
+"
+MessagesOverview.feature; Invalid scenarios
+MessagesDelete.feature; delete nonexistent and nonread new messages
+MessagesDelete.feature; delete nonexistent messages
+MessagesDelete.feature;" delete read message + delete New message read for the first time
+"
+MessagesDetails.feature;" Retrieve details of an existing message with status READ
+"
+MessagesDetails.feature; Retrieve details of an non existing message
+MessagesDetails.feature;" Retrieve details of an existing message with status NEW
+"
+ThirdPartyConsentDetails.feature;" Third party consent details by id
+"
+ThirdPartyAccountsWithConsentOverview.feature;" Available third party accounts with consent overview
+"
+ThirdPartyBankInformation.feature;" Check list of third party banks and PSD2 information NL
+"
+ThirdPartyBankInformation.feature;" Check PSD2 information FR
+"
+ThirdPartyAccountsTransactionsOverview.feature; Third party account transactions
+ThirdPartyAccountDetail.feature; Third party account details by id
+ValidateThirdPartyBankAccount.feature; Validate all the valid bank codes with correct IBAN numbers
+ValidateThirdPartyBankAccount.feature; Invalid combinations for IBAN and bank code
+ValidateThirdPartyBankAccount.feature; Invalid combinations for IBAN and bank code
+ThirdPartyAccountsOverview.feature; Third party accounts overview
+ThirdParyBankConsent.feature; Create a valid ThirdPartyConsent form
+PensionSavingTransferCreate.feature; Create transfer for Pension Saving
+PensionSavingTransferCreate.feature; Create transfer for Pension Saving with successful signing
+PensionSavingTransferCreate.feature; Invalid field scenarios
+PensionSavingTransferCreate.feature; Invalid scenarios
+PensionSavingTransferSign.feature; Create invalid scenarios with creation performed
+PensionSavingTransferSign.feature; Create invalid field scenarios with creation performed
+PensionSavingAccountDetails.feature;" Retrieve details of pension saving account - Account fully available
+"
+PensionSavingAccountDetails.feature;" Retrieve details of pension saving account - Fully paid account no standing order
+"
+PensionSavingAccountDetails.feature;" Retrieve details of pension saving account - Fully paid account with standing order
+"
+PensionSavingAccountDetails.feature;" Retrieve details of pension saving account - Not fully paid account with standing order
+"
+PensionSavingAccountDetails.feature;" Retrieve details of pension saving account - Not fully paid account no standing order
+"
+PensionSavingAccountDetails.feature;" Retrieve details of pension saving account - Person too old for pensionsaving
+"
+PensionSavingAccountDetails.feature;" Retrieve details of pension saving account - Annual transfer period Exceeded
+"
+PensionSavingAccountDetails.feature;" Retrieve details of pension saving account - Pension saving active, no saving history
+"
+PensionSavingAccountDetails.feature;" Retrieve details of pension saving account - Pension saving blocked
+"
+PensionSavingAccountDetails.feature; Retrieve details of an account with no pension saving active
+PensionSavingAccountDetails.feature;" Retrieve details of pension saving account - Standing order greater than maximum allowed amount
+"
+PensionSavingTransferSuggestionDetails.feature; Pension saving transfer request
+PensionSavingTransferSuggestionDetails.feature; Get transfer suggestion for subscription with insufficient balance on all accounts
+InvestmentCategoryDetails.feature; Get category investment details
+InvestmentCategoryDetails.feature; Get category investment details with invalid type or account number
+SecuritiesAccounts.feature; Retrieve securities accounts details by id
+SecuritiesAccounts.feature; Retrieve securities accounts details by invalid id
+InvestmentCategoryOverview.feature;" Get category investment overview
+"
+InvestmentCategoryOverview.feature;" Get category investment overview - No products or categories
+"
+InvestmentCategoryOverview.feature; Get category investment overview - Invalid Account number
+InvestmentCategoryOverview.feature;" Get category investment overview - Every category same weights
+"
+InvestmentInsurances.feature; Retrieve investment insurance details by id
+InvestmentInsurances.feature; Retrieve investment insurance details by invalid id
+InvestmentInsurances.feature; Retrieve investment insurance details by id
+TermDeposits.feature; Retrieve the term deposit details by id
+TermDeposits.feature; Retrieve the term deposit details by invalid id
+CategoriesInvesting.feature;" Retrieve categories
+"
+CategoriesInvesting.feature;" Retrieve product groups by category
+"
+CategoriesInvesting.feature;" Retrieve product groups by category with no products
+"
+CategoriesVehicle.feature;" Retrieve categories
+"
+CategoriesVehicle.feature;" Retrieve product groups by category
+"
+CategoriesVehicle.feature;" Retrieve product groups by category with no products
+"
+VehicleInstallmentLoans.feature; Retrieve the installment loan by id
+VehicleInstallmentLoans.feature; Retrieve the installment loan details by invalid id
+VehicleInsurances.feature; Retrieve the vehicle insurances details by id
+VehicleInsurances.feature; Retrieve the vehicle insurance details by invalid id
+LivingInstallmentLoans.feature; Retrieve the installment loan by id
+LivingInstallmentLoans.feature; Retrieve the installment loan details by invalid id
+InsuredLiving.feature; Retrieve the insured living by id
+InsuredLiving.feature; Retrieve the installment insured living by invalid id
+BrigdeLoans.feature; Retrieve the bridge loan by id
+BrigdeLoans.feature; Retrieve the bridge loan details by invalid id
+DebtBalances.feature; Retrieve the debt balance by id
+DebtBalances.feature; Retrieve the debt balances details by invalid id
+MortgageLoans.feature; Retrieve the mortgage loan details by id
+MortgageLoans.feature; Retrieve the mortgage loan details by invalid id
+CategoriesLiving.feature;" Retrieve categories
+"
+CategoriesLiving.feature;" Retrieve product groups by category
+"
+CategoriesLiving.feature;" Retrieve product groups by category with no products
+"
+HospitalisationInsurances.feature; Retrieve the hospitalisation insurance details by id
+HospitalisationInsurances.feature; Retrieve the hospitalisation insurance details by invalid id
+LifeInsurances.feature; Retrieve the life insurance details by id
+LifeInsurances.feature; Retrieve the life insurance details by invalid id
+Familyinsurances.feature; Retrieve the family insurance details by id
+Familyinsurances.feature; Retrieve the family insurance details by invalid id
+CategoriesFamily.feature;" Retrieve categories
+"
+CategoriesFamily.feature;" Retrieve product groups by category
+"
+CategoriesFamily.feature;" Retrieve product groups by category with no products
+"
+CategoriesFamily.feature;" Retrieve product groups by category to verify Polis Verzekerd Wonen+ is shown as a family product
+"
+FamilyInstallmentLoans.feature; Retrieve the installment loan by id
+FamilyInstallmentLoans.feature; Retrieve the installment loan details by invalid id
+OpenDebts.feature; as quality engineer I retrieve a list of accounts
+AccountOverview.feature;" as a quality engineer I retrieve a list of accounts
+"
+AccountOverview.feature;" as a quality engineer I retrieve a list of accounts
+"
+AccountOverview.feature;" as a quality engineer I retrieve a list of accounts
+"
+ValidateApplication.feature;" Validate Application
+"
+ValidateApplication.feature;" Validate Application - Unemployed
+"
+ValidateApplication.feature;" Validate Application - Self Employed
+"
+SimulationBicycle.feature; Verify the correct amounts
+SimulationBicycle.feature; Invalid scenarios
+RetrieveProfessions.feature;" as quality engineer I retrieve a list of professions in Dutch
+"
+RetrieveProfessions.feature;" as quality engineer I retrieve a list of professions in French
+"
+PreApplicationCheck.feature;" CKP check & person Check
+"
+PreApplicationCheck.feature; CKP check & person Check
+VzwPlusSimulation.feature; Verify correct values
+VzwPlusSimulation.feature; Invalid scenarios - boundaries
+VzwPlusSimulationSubmit.feature; Submit VZW+ simulation
+VzwPlusSimulationSubmit.feature; Invalid testcases
+VzwPlusSimulationSubmit.feature; Invalid testcases
+BikeLoaSimulation.feature; Verify the correct amounts
+BikeLoaSimulation.feature; Invalid scenarios
+BikeLoaSimulationSubmit.feature; Submit LOA simulation
+BikeLoaSimulationSubmit.feature; Invalid field errors
+InstallmenLoansSimulation.feature; Loa Simulation
+BeneficiaryDelete.feature;"
+"
+TestdataCreate.feature; Create Beneficiary
+TestdataCreate.feature; Create transfer
+AddThirdPartyBankaccountBanner.feature;" Turn campaign banner on
+"
+AddThirdPartyBankaccountBanner.feature;" Turn campaign banner off
+"
+PreferredChannelBanner.feature;" Turn campaign banner preferred channel on
+"
+PreferredChannelBanner.feature;" Turn campaign banner preferred channel off
+"
+PhotoPayFeatureToggle.feature;" feature fingerprint logon off
+"
+PhotoPayFeatureToggle.feature;" feature fingerprint login on
+"
+ConsultDocumentsToggle.feature;" feature consultDocuments on
+"
+ConsultDocumentsToggle.feature;" feature consultDocuments off
+"
+FingerprintLogonFeatureToggle.feature;" feature fingerprint logon off
+"
+FingerprintLogonFeatureToggle.feature;" feature fingerprint login on
+"
+config.feature;" Retrieve config NL
+"
+config.feature;" Retrieve config FR
+"
+ComparisonChartCreditCardFeatureToggle.feature;" feature creditCardComparisonChart off
+"
+ComparisonChartCreditCardFeatureToggle.feature;" feature creditCardComparisonChart on
+"
+FORCEDPreferredChannelUpdateFeatureToggle.feature;" feature preferredChannel on
+"
+FORCEDPreferredChannelUpdateFeatureToggle.feature;" feature preferredChannel off
+"
+Unavailability.feature; Unavailability announcement
+Unavailability.feature; Unplanned announcement
+Unavailability.feature; Announcements set when they should not be displayed : announcement set after unavailability has passed
+Unavailability.feature; Announcements set when they should not be displayed: announcement during unavailability
+Unavailability.feature; Unavailability announcement set for the future
+Unavailability.feature; Invalid scenario's
+Unavailability.feature; Intercept calls to business endpoints when unavailability is enabled
+BookingbugFeatureToggle.feature;" feature bookingbug off
+"
+BookingbugFeatureToggle.feature;" feature bookingbug on
+"
+PensionSavingFeatureToggle.feature; Toggle pension saving off and request transfer suggestion
+PensionSavingFeatureToggle.feature; Create transfer for Pension Saving
+PensionSavingFeatureToggle.feature;" Retrieve details of pension saving account
+"
+ImageWhatsNew.feature;" Retrieve whats new image
+"
+ImageWhatsNew.feature;" Retrieve whats new image
+"
+ImageWhatsNew.feature; Invalid scenario
+CardSettingsSign.feature; Update invalid scenarios with update performed
+CardSettingsSign.feature; Update invalid field scenarios with update performed
+CardSettingsSign.feature; Update valid ignored field scenario with update performed
+CardsEstatements.feature; Retrieve the usage details of a card
+CardsEstatements.feature; Invalid scenarios
+CardsEstatements.feature; Invalid scenarios with field errors for id
+CardSettingsUpdate.feature; Update eCommerce setting
+CardSettingsUpdate.feature; Debet card update region settings
+CardSettingsUpdate.feature; Credit card update region settings
+CardSettingsUpdate.feature; Debet card invalid update region settings
+CardSettingsUpdate.feature; Credit card invalid update region settings
+CardSettingsUpdate.feature;" Debet region access actief from tomorrow
+"
+CardSettingsUpdate.feature;" Credit region access inactief from tomorrow
+"
+CardSettingsUpdate.feature;" Debet Timezones? What timezone is used? Winter / Summer?
+"
+CardsUsageDetails.feature; Retrieve the usage details of a card
+CardsUsageDetails.feature;" Retrieve the usage details of a card with no estatements
+"
+CardsUsageDetails.feature; Invalid scenario - debet card
+CardsUsageDetails.feature; Invalid scenarios
+CardsUsageDetails.feature; Invalid scenarios with field errors for id
+CardComparisonScoring.feature; Valid test cases: I see the scoring
+CardComparisonScoring.feature; Invalid test cases: I don't see the scoring
+CardPlaceholderDetail.feature; Retrieve placeholder for credit cards
+CardsTransactions.feature; Retrieve an overview of all the transaction per page for my master card
+CardsTransactions.feature; Retrieve an overview of all the transaction per page for my golden credit card
+CardsTransactions.feature; Retrieve an overview of all the transaction per page for my debit card
+CardsTransactions.feature; Retrieve an overview of all the transaction per page invalid
+CardsOverview.feature;" Retrieve an overview of all cards
+"
+CardsDetail.feature; Retrieve card details
+CardsDetail.feature; Invalid scenarios
+CardsDetail.feature; Invalid field scenarios
+BeneficiarySuggestionByIban.feature;" Beneficiary auto suggest list filtered on iban - When making a transaction to the same beneficiary(not registered) multiple times with different data, the data of the most recent transaction should be shown
+"
+BeneficiarySuggestionByIban.feature;" Beneficiary auto suggest list filtered on iban - When making a transaction to the same registered beneficiary multiple times with different data, the data of the beneficiary should always be shown + When making a transaction to a registered beneficiary without address data, the data should be fetched from the beneficiary if available
+"
+BeneficiarySuggestionByIban.feature;" Beneficiary auto suggest list filtered on iban
+"
+BeneficiarySuggestionByIban.feature;" Beneficiary auto suggest list filtered on iban - When making a transaction to a registered beneficiary with address data, the data should be fetched from the beneficiary if available
+"
+BeneficiarySuggestionByIban.feature;" Beneficiary auto suggest list filtered on iban - Adding your own account as a beneficiary
+"
+BeneficiarySuggestionByIban.feature;" Beneficiary auto suggest list filtered on iban - Filtering on iban, sorted by name
+"
+BeneficiarySuggestionByIban.feature; Beneficiary auto suggest list filtered on iban - Filtering rules
+BeneficiarySuggestionByIban.feature; Beneficiary auto suggest list filtered on iban with no results - Iban or Name to which no transactions have been made
+BeneficiarySuggestionByIban.feature;" Beneficiary auto suggest list no filter - Retrieves list of beneficiaries when no OwnIban is specified
+"
+BeneficiarySuggestionByIban.feature;" Beneficiary auto suggest list filtered on iban - Retrieves list of beneficiaries when no OwnIban is specified
+"
+BeneficiarySuggestionByIban.feature; Beneficiary auto suggest list filtered on iban with no results - Iban or Name to which no transactions have been made
+BeneficiarySuggestionByIban.feature; Invalid scenarios with searchterm
+TestdataCreateAutosuggest.feature; Create Beneficiary autosuggest
+TestdataCreateAutosuggest.feature; Create transfer
+TestdataCreateAutosuggest.feature; Create transfer
+TestdataCreateAutosuggest.feature; Create Beneficiary overview and search
+TestdataCreateAutosuggest.feature;" delete
+"
+BeneficiarySuggestion.feature;" Beneficiary auto suggest list without searchterm
+"
+BeneficiarySuggestion.feature;" Beneficiary auto suggest list filtered on iban - When making a transaction to the same beneficiary(not registered) multiple times with different data, the data of the most recent transaction should be shown
+"
+BeneficiarySuggestion.feature;" Beneficiary auto suggest list filtered on iban - When making a transaction to the same registered beneficiary multiple times with different data, the data of the beneficiary should always be shown + When making a transaction to a registered beneficiary without address data, the data should be fetched from the beneficiary if available
+"
+BeneficiarySuggestion.feature;" Beneficiary auto suggest list filtered on iban
+"
+BeneficiarySuggestion.feature;" Beneficiary auto suggest list filtered on iban - When making a transaction to a registered beneficiary with address data, the data should be fetched from the beneficiary if available
+"
+BeneficiarySuggestion.feature;" Beneficiary auto suggest list filtered on iban - Adding your own account as a beneficiary
+"
+BeneficiarySuggestion.feature;" Beneficiary auto suggest list filtered on iban - Filtering on iban, sorted by name
+"
+BeneficiarySuggestion.feature; Beneficiary auto suggest list filtered on iban - Filtering rules
+BeneficiarySuggestion.feature;" Beneficiary auto suggest list filtered on name - Matching names different iban
+"
+BeneficiarySuggestion.feature;" Beneficiary auto suggest list filtered on name - Matching name different iban secondary word
+"
+BeneficiarySuggestion.feature;" Beneficiary auto suggest list filtered on name - Combination of name and iban using term BE, should prioritise names over iban and deduplicate records
+"
+BeneficiarySuggestion.feature; Beneficiary auto suggest list filtered on name - Search on any word or first letters of a word in any order
+BeneficiarySuggestion.feature;" Beneficiary auto suggest list filtered on name -  When making a transaction to a registered beneficiary without address data, the data should be fetched from the beneficiary if available
+"
+BeneficiarySuggestion.feature;" Beneficiary auto suggest list filtered on name - When making a transaction to a registered beneficiary with address data, the data should be fetched from the beneficiary if available
+"
+BeneficiarySuggestion.feature; Beneficiary auto suggest list filtered on name - Case insensitivity transferType KNOWN
+BeneficiarySuggestion.feature; Beneficiary auto suggest list filtered on name - Case insensitivity transferType OTHER
+BeneficiarySuggestion.feature;" Beneficiary auto suggest list filtered on name  - Belgian messageType using transferType KNOWN
+"
+BeneficiarySuggestion.feature;" Beneficiary auto suggest list filtered on name - Belgian messageType using transferType OTHER
+"
+BeneficiarySuggestion.feature;" Beneficiary auto suggest list filtered on name - Capitalised searching and first word match priority
+"
+BeneficiarySuggestion.feature;" Beneficiary auto suggest list filtered on name - Capitalised searching and first word match priority
+"
+BeneficiarySuggestion.feature; Beneficiary auto suggest list filtered on iban with no results - Iban or Name to which no transactions have been made
+BeneficiarySuggestion.feature;" Beneficiary auto suggest list no filter - Retrieves list of beneficiaries when no OwnIban is specified
+"
+BeneficiarySuggestion.feature;" Beneficiary auto suggest list no filter - Retrieves list of beneficiaries when no OwnIban is specified
+"
+BeneficiarySuggestion.feature;" Beneficiary auto suggest list filtered on iban - Retrieves list of beneficiaries when no OwnIban is specified
+"
+BeneficiarySuggestion.feature; Beneficiary auto suggest list filtered on iban with no results - Iban or Name to which no transactions have been made
+BeneficiarySuggestion.feature; Invalid scenarios with searchterm
+BeneficiarySuggestion.feature; Invalid scenarios without searchterm
+BeneficiarySuggestion.feature; CACHING
+BeneficiarySuggestionByName.feature;" Beneficiary auto suggest list filtered on name - Matching names different iban
+"
+BeneficiarySuggestionByName.feature;" Beneficiary auto suggest list filtered on name - Matching name different iban secondary word
+"
+BeneficiarySuggestionByName.feature;" Beneficiary auto suggest list filtered on name - Combination of name and iban using term BE, should prioritise names over iban and deduplicate records
+"
+BeneficiarySuggestionByName.feature; Beneficiary auto suggest list filtered on name - Search on any word or first letters of a word in any order
+BeneficiarySuggestionByName.feature;" Beneficiary auto suggest list filtered on name -  When making a transaction to a registered beneficiary without address data, the data should be fetched from the beneficiary if available
+"
+BeneficiarySuggestionByName.feature;" Beneficiary auto suggest list filtered on name - When making a transaction to a registered beneficiary with address data, the data should be fetched from the beneficiary if available
+"
+BeneficiarySuggestionByName.feature; Beneficiary auto suggest list filtered on name - Case insensitivity transferType KNOWN
+BeneficiarySuggestionByName.feature; Beneficiary auto suggest list filtered on name - Case insensitivity transferType OTHER
+BeneficiarySuggestionByName.feature;" Beneficiary auto suggest list filtered on name  - Belgian messageType using transferType KNOWN
+"
+BeneficiarySuggestionByName.feature;" Beneficiary auto suggest list filtered on name - Belgian messageType using transferType OTHER
+"
+BeneficiarySuggestionByName.feature;" Beneficiary auto suggest list filtered on name - Capitalised searching and first word match priority
+"
+BeneficiarySuggestionByName.feature;" Beneficiary auto suggest list filtered on name - Capitalised searching and first word match priority
+"
+BeneficiarySuggestionByName.feature; Beneficiary auto suggest list filtered on iban with no results - Iban or Name to which no transactions have been made
+BeneficiarySuggestionByName.feature;" Beneficiary auto suggest list no filter - Retrieves list of beneficiaries when no OwnIban is specified
+"
+BeneficiarySuggestionByName.feature;" Beneficiary auto suggest list filtered on iban - Retrieves list of beneficiaries when no OwnIban is specified
+"
+BeneficiarySuggestionByName.feature; Beneficiary auto suggest list filtered on iban with no results - Iban or Name to which no transactions have been made
+BeneficiarySuggestionByName.feature; Invalid scenarios with searchterm
+BeneficiariesCreate.feature; Create Beneficiary
+BeneficiariesCreate.feature; Invalid Field scenarios
+BeneficiariesCreate.feature; Invalid scenarios
+BeneficiariesCreate.feature; Create Beneficiary which already exists
+BeneficiariesDetails.feature; Retrieve details of an existing beneficiary
+BeneficiariesDetails.feature; Retrieve details of a non existing beneficiary
+BeneficiariesDetails.feature; Retrieve details of a non existing beneficiary
+BeneficiariesSign.feature; Create invalid sbp scenarios with creation performed
+BeneficiariesSign.feature; Create invalid field scenarios with creation performed
+BeneficiariesSign.feature; Create valid ignored field scenarios with create performed
+BeneficiariesSign.feature; Update invalid scenarios with update performed
+BeneficiariesSign.feature; Update invalid field scenarios with update performed
+BeneficiariesSign.feature; Update valid ignored field scenarios with update performed
+BeneficiariesOverview.feature; Retrieve an overview of all beneficiaries per page
+BeneficiariesOverview.feature;" Beneficiaries overview with no results
+"
+BeneficiariesOverview.feature; Invalid scenarios
+BeneficiariesDelete.feature; delete non-existent beneficiaries with sbp error
+BeneficiariesDelete.feature; delete non-existent beneficiaries with field error
+BeneficiariesSearch.feature; Search for the details of an existing beneficiary
+BeneficiariesSearch.feature; Search beneficiaries with no results
+BeneficiariesSearch.feature; Search beneficiaries with no results when user has no beneficiaries at all
+BeneficiariesSearch.feature; Invalid scenarios
+BeneficiariesSearch.feature; Invalid field scenarios
+BeneficiariesUpdate.feature; Update Beneficiary
+BeneficiariesUpdate.feature; Invalid Field scenarios
+BeneficiariesUpdate.feature; Invalid scenarios
+BeneficiariesUpdate.feature; Update a non existing beneficiary
+BeneficiariesUpdate.feature;" Update beneficiary to an existing beneficiary
+"
+LimitsRemaining.feature;" Retrieve an overview of all remaining limits including order check
+"
+LimitsUpdate.feature; Update limits no signing
+LimitsUpdate.feature; Update limits with signing
+LimitsUpdate.feature;" Check if limits are updated if you did not sign when sign is needed
+"
+LimitsUpdate.feature; Invalid scenarios max values
+LimitsUpdate.feature; Invalid scenarios min values
+LimitsOverview.feature;" Retrieve an overview of all limits including order check
+"
+LimitsSignUpdate.feature; Invalid field scenarios
+LimitsSignUpdate.feature; Invalid scenarios
+WhatsNewVersions.feature;
+WhatsNewVersions.feature; under minimum osVersion
+WhatsNewVersions.feature; under minimum osVersion
+TransfersOverview.feature; Retrieve an overview of all transfers per page
+TransfersOverview.feature;" Transfers overview with no results
+"
+TransfersOverview.feature; Invalid scenarios
+TransferBlacklist.feature;  Banks Accept IP
+TransferBlacklist.feature; Banks Not Accept IP
+TransferBlacklist.feature; Error Handling
+TransfersCreate.feature; Create transfer with signing
+TransfersCreate.feature;" Create PSD2 transfer with confirmation
+"
+TransfersCreate.feature; Invalid functional scenarios
+TransfersCreate.feature; Invalid functional scenarios with field errors
+TransfersCreate.feature; Check for limits updates
+TransfersCreate.feature; Exceed limits appversion 47 and higher
+TransfersCreate.feature; Exceed daily limits appversion 47 and higher
+TransfersCreate.feature; Transfer with successful M2 signing
+TransfersUpdate.feature; Update transfer
+TransfersUpdate.feature; Invalid scenarios
+TransfersUpdate.feature; Invalid field scenarios
+TransfersSign.feature; Create invalid scenarios with creation performed
+TransfersSign.feature; Create invalid field scenarios with creation performed
+TransfersSign.feature; Update invalid scenarios with update performed
+TransfersSign.feature; Update invalid field scenarios with update performed
+TransfersSign.feature; Update valid ignored field scenarios with update performed
+TransfersSign.feature; Delete invalid scenarios with delete performed
+TransfersSign.feature; Delete invalid scenarios with delete performed
+TransfersSign.feature; Delete invalid scenarios with delete performed
+TransfersDelete.feature;" Delete newly created transfer with signing
+"
+TransfersDelete.feature; Invalid scenarios
+TransfersDelete.feature; Invalid field scenarios
+TestDataCreateStandingOrders.feature; Create standing order functional testing with signing
+AccountsStandingOrders.feature; Retrieve an overview of all the standing order per page for my account
+AccountsStandingOrders.feature; Standing order overview with no results on checkings account for non existing page with positive index
+AccountsStandingOrders.feature; Standing order overview with only PENSION standing orders
+AccountsStandingOrders.feature;" Standing order overview with no results on savings account
+"
+AccountsStandingOrders.feature;" Standing order overview with no results on checkings account
+"
+AccountsStandingOrders.feature; Invalid scenarios
+AccountsStandingOrdersCreate.feature; Create standing order functional testing with signing
+AccountsStandingOrdersCreate.feature; Invalid functional scenarios
+AccountsStandingOrdersCreate.feature; Invalid functional scenarios with field errors
+AccountsStandingOrdersCreate.feature; Check for limits updates
+AccountsStandingOrdersUpdate.feature; Update standing order
+AccountsStandingOrdersUpdate.feature; Update standing order invalid
+AccountsStandingOrdersUpdate.feature; Invalid scenario - Update type pension
+AccountsStandingOrdersUpdate.feature; Invalid scenarios
+AccountsStandingOrdersUpdate.feature; Invalid scenarios
+AccountsStandingOrdersDetails.feature;
+AccountsStandingOrdersDetails.feature; Invalid scenarios for id
+AccountsStandingOrdersDetails.feature; Invalid scenarios with field errors for id
+AccountsStandingOrdersDelete.feature;" Delete newly created standing order with signing
+"
+AccountsStandingOrdersDelete.feature;" Delete newly created standing order without signing
+"
+AccountsStandingOrdersDelete.feature; Invalid scenario - Delete type pension
+AccountsStandingOrdersDelete.feature; Invalid scenarios
+AccountsStandingOrdersDelete.feature; Invalid field scenarios
+AccountsStandingOrdersSign.feature; Create invalid scenarios with creation performed
+AccountsStandingOrdersSign.feature; Create invalid field scenarios with creation performed
+AccountsStandingOrdersSign.feature; Create valid ignored field scenarios with creation performed
+AccountsStandingOrdersSign.feature; Delete valid ignored field scenarios with delete performed
+AccountsDirectDebitMandates.feature; Retrieve an overview of all the mandates per page for my account
+AccountsDirectDebitMandates.feature; Standing order overview with no results on checkings account for non existing page with positive index
+AccountsDirectDebitMandates.feature;" Mandates overview with no results on savings account
+"
+AccountsDirectDebitMandates.feature;" Mandates overview with no results on checkings account
+"
+AccountsDirectDebitMandates.feature; Invalid scenarios
+AccountsTransactionsSearch.feature; Retrieve an overview of all the found transactions
+AccountsTransactionsSearch.feature; Retrieve an overview of all the found transactions by name and amount
+AccountsTransactionsSearch.feature; Search transactions with no results
+AccountsTransactionsSearch.feature; Invalid scenarios
+AccountsTransactionsSearch.feature; Invalid field scenarios
+TestDataCreateAccountsTransactionSearch.feature; Create transfer
+Accounts.feature;" Retrieve an overview of all accounts including order check
+"
+Accounts.feature;" Retrieve an overview of all accounts including order check for appversion 418 or lower
+"
+AccountsNickname.feature; Update nickname
+AccountsNickname.feature; Invalid Update nickname
+AccountsTransactions.feature; Retrieve an overview of all the transaction per page for my account
+AccountsTransactions.feature;" Transactions overview with no results
+"
+AccountsTransactions.feature; Invalid scenarios
+AccountsTransactions.feature; Check that transactions without beneficiaryIban cannot be of transferType OTHER
+OfficesFetch.feature;" Retrieve the office data
+"
+OfficesFetch.feature;" Get office data with an active header
+"
+OfficesFetch.feature;" Get office data with an expired header
+"
+DocumentsOverview.feature; Retrieve an overview of all documents per page
+DocumentsOverview.feature;" document overview with no results
+"
+DocumentsOverview.feature; Invalid scenarios
+DocumentsDetails.feature;" Retrieve details of an existing document
+"
+DocumentsDetails.feature; Retrieve details of an non existing document
+TermsAndConditions.feature; Terms and Conditions redirect
+PrivacyStatement.feature; Privacy Statement redirect
+UserAgreement.feature; User Agreement redirect
+PreferredChannelDocumentSigning.feature; Change email type with correct signing
+PreferredChannelDocumentSigning.feature; Invalid signing method
+PreferredChannelDocumentType.feature; Change communication type
+PreferredChannelDocumentType.feature; Change email
+PreferredChannelDocumentType.feature; Invalid cases wrong email address
+AuthenticationValidateAuthRegistered.feature; Valid login when registered
+AuthenticationValidateAuthRegistered.feature; Invalid scenarios
+AuthenticationValidateAuthRegistered.feature; Invalid field scenarios
+AuthenticationValidateAuthRegistered.feature;" Login with invalid responses 5 times
+"
+AuthenticationValidateAuthRegistered.feature;" Invalid login after valid login without logout
+"
+AuthenticationValidateAuthRegistered.feature;" Invalid login after valid login with logout
+"
+AuthenticationValidateAuthRegistered.feature;" Valid login after valid login without logout
+"
+AuthenticationValidateAuthRegistered.feature;" Valid login after valid login with logout
+"
+AuthenticationValidateAuthRegistered.feature;" Login after logout without start-auth
+"
+AuthenticationValidateAuthRegistered.feature;" Login after two start-auth
+"
+AuthenticationValidateAuthRegistered.feature;" Login after logout using OLD UAK
+"
+AuthenticationValidateAuthRegistered.feature;" Login after logout using NEW challenge and OLD UAK
+"
+AuthenticationValidateAuthRegistered.feature;" Login after logout using OLD challenge and NEW UAK
+"
+AuthenticationValidateAuthRegistered.feature;" Login after logout using OLD challenge and OLD UAK
+"
+AuthenticationValidateAuthRegistered.feature;" Login after logout using NEW challenge and NEW UAK, validate that old uak is inactive
+"
+AuthenticationValidateAuthRegistered.feature;" Login with other cardnumber than registration with same deviceId
+"
+AuthenticationLogOff.feature;" Logoff after login
+"
+AuthenticationLogOff.feature;" Logoff after start authentication
+"
+AuthenticationLogOff.feature;" Logoff after at least 69 seconds of inactivity
+"
+AuthenticationChangePin.feature;" Invalid login after valid login without logout
+"
+AuthenticationChangePin.feature;" Invalid login after valid login with logout
+"
+AuthenticationChangePin.feature;" Valid login after valid login without logout
+"
+AuthenticationChangePin.feature;" Valid login after valid login with logout
+"
+AuthenticationChangePin.feature;" Login after logout without start-auth
+"
+AuthenticationChangePin.feature;" Login after two start-auth
+"
+AuthenticationChangePin.feature;" Login after logout using OLD UAK
+"
+AuthenticationChangePin.feature;" Login after logout using NEW challenge and OLD UAK
+"
+AuthenticationChangePin.feature;" Login after logout using OLD challenge and NEW UAK
+"
+AuthenticationChangePin.feature;" Login after logout using OLD challenge and OLD UAK
+"
+AuthenticationChangePin.feature;" Login after logout using NEW challenge and NEW UAK, validate that old uak is inactive
+"
+AuthenticationValidateAuthNotRegistered.feature; Valid login with card number when not registered without pin switch
+AuthenticationValidateAuthNotRegistered.feature;" Valid login when not registered with pin switch
+"
+AuthenticationValidateAuthNotRegistered.feature; Invalid scenarios
+AuthenticationValidateAuthNotRegistered.feature; Invalid field scenarios
+AuthenticationValidateAuthNotRegistered.feature;" Login with blocked account
+"
+AuthenticationValidateAuthNotRegistered.feature;" Login with invalid responses 5 times
+"
+AuthenticationStartAuth.feature; Valid scenarios
+AuthenticationStartAuth.feature; Invalid scenarios
+AuthenticationStartAuth.feature; Invalid field scenarios
+AuthenticationKeepAlive.feature;" Keep session alive after login
+"
+AuthenticationKeepAlive.feature;" Session is lost after login when I am inactive above the keepalive limits
+"
+AuthenticationKeepAlive.feature;" Keep session alive after login when I am inactive within the keepalive limits
+"
+deviceIdAndCsrf.feature; Invalid scenarios deviceID and CSRF
+deviceIdAndCsrf.feature; Invalid scenarios JWT
+appVersion.feature; appVersion < min appVersions || appVersion empty
+appVersion.feature; appVersion >= min appVersion
+appVersion.feature; offices do not use appVersion
+language.feature; Translation Scenarios for Transactions
+language.feature; Translation Scenarios for Authentications
+Sanity.feature;" Retrieve config NL
+"
+Sanity.feature;" Credit Card transactions
+"
+Sanity.feature;" Accounts and Cards
+"
+Sanity.feature;" Beneficiaries
+"
+Sanity.feature;" Messages
+"
+Sanity.feature;" Products
+"
+Sanity.feature; Sign with digipass M2 check
+Sanity.feature; Retrieve an overview of all the mandates per page for my account
+Sanity.feature; Retrieve an overview of all the standing order per page for my account
+Sanity.feature;" Transfer
+"
